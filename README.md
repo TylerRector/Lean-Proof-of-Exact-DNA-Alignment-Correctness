@@ -1,6 +1,4 @@
-# CertAlignVerifiedAlgorithm
-
-A minimal Lean 4 proof of exact global DNA alignment correctness.
+A Lean 4 proof of exact global DNA alignment correctness.
 
 The project formalizes the edit-grid model of alignment, defines a recursive edit-distance value, constructs a traceback path, and proves that the path is globally optimal.
 
