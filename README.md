@@ -89,25 +89,6 @@ This is the classical dynamic-programming model behind exact global sequence ali
 
 The contribution here is not a new recurrence. It is a compact machine-checked proof of the recurrence, traceback, path cost, and optimality theorem in one small Lean development.
 
-## Scope
-
-This repository proves the core theorem only.
-
-It does not include:
-
-```text
-FASTA/FASTQ parsing
-heuristic mapping
-affine gaps
-ambiguous base N
-benchmarks
-SIMD/native optimization
-external certificates
-sparse patch machinery
-```
-
-The recursive `ed` definition is a specification. Efficient implementations should compute the same value with table or rolling-row dynamic programming.
-
 ## Verification
 
 Current checks:
