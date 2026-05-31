@@ -87,7 +87,7 @@ This is the classical dynamic-programming model behind exact global sequence ali
 - Wagner–Fischer string edit distance  
   <https://dl.acm.org/doi/10.1145/321796.321811>
 
-The contribution here is not a new recurrence. It is a compact machine-checked proof of the recurrence, traceback, path cost, and optimality theorem in one small Lean development.
+The contribution here is not a new recurrence. It is a compact machine-checked proof of the recurrence, traceback, path cost, and optimality theorem.
 
 ## Verification
 
