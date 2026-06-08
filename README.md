@@ -77,7 +77,7 @@ therefore the constructed path is optimal
 
 ## Lineage
 
-This is the classical dynamic-programming model behind exact global sequence alignment and edit distance:
+This is the classical dynamic-programming model behind exact global sequence alignment and edit distance. This project is a machine-checked proof of the recurrence, traceback, path cost, and optimality theorem.
 
 - Needleman–Wunsch global sequence alignment  
   <https://pubmed.ncbi.nlm.nih.gov/5420325/>
@@ -85,15 +85,7 @@ This is the classical dynamic-programming model behind exact global sequence ali
 - Wagner–Fischer string edit distance  
   <https://dl.acm.org/doi/10.1145/321796.321811>
 
-The contribution here is not a new recurrence. It is a machine-checked proof of the recurrence, traceback, path cost, and optimality theorem.
-
 ## Verification
-
-Current checks:
-
-```text
-lake build
-```
 
 Reported axiom dependencies for the main theorem:
 
